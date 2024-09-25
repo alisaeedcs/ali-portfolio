@@ -1,7 +1,7 @@
 import React from "react";
 import { FaBook } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
+import { LuGraduationCap, LuRocket } from "react-icons/lu";
 import instaqr1Img from "@/public/instaqr1.jpg";
 import planetpalImg from "@/public/planetpalpromo.png";
 import apothailogoImg from "@/public/apothailogo.jpg";
@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated High School",
-    location: "Concord, CA",
+    title: "NCAS Scholar @ NASA",
+    location: "Remote",
     description:
-      "I graduated with a 4.53 GPA. I was the President/Founder of the Computer Science Club and a Secretary/Team Member for the Science Olympiad Team. I also created a facial recognition system to be used for attendance.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2024",
+      "Learned about NASA's foundations and the goals of the Space Technology Mission Directorate (STMD) through research projects. Conducted research and produced weekly research papers and infographics focused on NASA's STMD initiatives. Selected for Phase 2 of the program, after competing with over 100 students, with participation from October 23-30, 2024",
+    icon: React.createElement(LuRocket),
+    date: "July 2024 - September 2024",
+  },
+  {
+    title: "Freelance Developer",
+    location: "",
+    description:
+      "Managed and completed complex projects for various clients, achieving diverse goals. Collaborated with Clayton Valley Charter High School to automate attendance using a facial recognition system. Developed Chrome extensions and explored monetization strategies for completed projects.",
+    icon: React.createElement(FaReact),
+    date: "2023 - Present",
   },
   {
     title: "Tutor/Grader @ Kumon",
     location: "Concord, CA",
     description:
-      "I worked as a tutor with children who were struggling with math concepts. Furthermore, I taught/worked with students English who only knew a foreign language. ",
+      "Tutored children struggling with Math and English, helping them understand fundamental concepts. Assisted non-native English speakers to develop proficiency in reading and writing English. Efficiently graded assignments to provide timely feedback to students.",
     icon: React.createElement(FaBook),
-    date: "2022 - 2023",
-  },
-  {
-    title: "Freelance Developer",
-    location: "Clayton, CA",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, NodeJS and MongoDB. I've worked on corporate and individual projects.",
-    icon: React.createElement(FaReact),
-    date: "2023 - Present",
+    date: "Aug 2022 - Feb 2023",
   },
 ] as const;
 
